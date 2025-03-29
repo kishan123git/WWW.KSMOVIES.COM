@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+.title span{
+    color: orange;
+}
+
+.title h1{
+    color: white;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.link {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+
+.link button{
+    width: 14%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 17px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 251, 136, 0.56);
+    cursor: pointer;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    
+}
+
+.link button::after{
+   
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    /* height: 120%;
+    width: 105%; */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #45155b, #cb2cab);
+    
+    z-index: -1;
+     transition: 0.4s ease;
+}
+
+.link button:hover{
+    z-index: 0;
+}
+
+.link a{
+    padding: 1% 3%;
+    text-decoration: none;
+}
+
+.title2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.title2 h1{
+    color: white;
+}
+
+.title2 span{
+    color: orange;
+}
+
+.link2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.link2 button{
+    width: 14%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 17px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 251, 136, 0.56);
+    cursor: pointer;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    
+}
+
+.link2 button::after{
+   
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    /* height: 120%;
+    width: 105%; */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #45155b, #cb2cab);
+    
+    z-index: -1;
+     transition: 0.4s ease;
+}
+
+.link2 button:hover{
+    z-index: 0;
+}
+
+.link2 a{
+    padding: 1% 3%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.title3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.title3 h1{
+    color: white;
+}
+
+.title3 span{
+    color: orange;
+}
+
+.link3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.link3 button{
+    width: 14%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 17px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 251, 136, 0.56);
+    cursor: pointer;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    
+}
+
+.link3 button::after{
+   
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    /* height: 120%;
+    width: 105%; */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #45155b, #cb2cab);
+    
+    z-index: -1;
+     transition: 0.4s ease;
+}
+
+.link3 button:hover{
+    z-index: 0;
+}
+
+.link3 a{
+    padding: 1% 3%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.title4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.title4 h1{
+    color: white;
+}
+
+.title4 span{
+    color: orange;
+}
+
+.link4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.link4 button{
+    width: 14%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 17px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 251, 136, 0.56);
+    cursor: pointer;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    
+}
+
+.link4 button::after{
+   
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    /* height: 120%;
+    width: 105%; */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #45155b, #cb2cab);
+    
+    z-index: -1;
+     transition: 0.4s ease;
+}
+
+.link4 button:hover{
+    z-index: 0;
+}
+
+.link4 a{
+    padding: 1% 3%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.title5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.title5 h1{
+    color: white;
+}
+
+.title5 span{
+    color: orange;
+}
+
+.link5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.link5 button{
+    width: 14%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 17px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 251, 136, 0.56);
+    cursor: pointer;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    
+}
+
+.link5 button::after{
+   
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    /* height: 120%;
+    width: 105%; */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #45155b, #cb2cab);
+    
+    z-index: -1;
+     transition: 0.4s ease;
+}
+
+.link5 button:hover{
+    z-index: 0;
+}
+
+.link5 button a, .link button a, .link2 button a, .link3 button a, .link4 button a{
+    padding: 1% 3%;
+    text-decoration: none;
+    color: white;
+}

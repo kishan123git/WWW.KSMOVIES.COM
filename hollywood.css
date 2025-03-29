@@ -1,0 +1,49 @@
+*{
+    margin: 0.2%;
+    padding: 0.2%;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.MOVIE1 img{
+    width: 12rem;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    height: 30vh;
+}
+
+.MOVIE1 img:hover{
+    
+    border: 2px solid white;
+}
+
+.MOVIE1{
+    width: 12%;
+    height: 100%;
+    margin: 2%;
+    background-color: #584444;
+    padding: 1% 1.8% 1% 1%;
+    
+    border-radius: 24px;
+}
+
+.MOVIE1 p{
+    color: white;
+    padding-right: 1%;
+    transition: 0.4s ease;
+}
+
+.MOVIE1 a{
+    text-decoration: none;
+}
+
+.MOVIE1 p:hover{
+    color: rgb(51, 207, 227);
+}
+
+.maincontainer{
+    display: flex;
+}
